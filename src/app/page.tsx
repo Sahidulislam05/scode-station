@@ -10,7 +10,7 @@ import {
   ArrowRight,
   Sparkles,
   GraduationCap,
-  Briefcase
+  Briefcase,
 } from "lucide-react";
 
 export default function HomePage() {
@@ -38,8 +38,8 @@ export default function HomePage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Professional service agency meets cutting-edge tech academy.
-              We build innovation and empower the next generation of developers.
+              Professional service agency meets cutting-edge tech academy. We
+              build innovation and empower the next generation of developers.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -80,9 +80,12 @@ export default function HomePage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <Code2 className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-2">Expert Development</h3>
+                <h3 className="font-semibold text-xl mb-2">
+                  Expert Development
+                </h3>
                 <p className="text-muted-foreground">
-                  Full-stack web solutions built with modern technologies and best practices
+                  Full-stack web solutions built with modern technologies and
+                  best practices
                 </p>
               </CardContent>
             </Card>
@@ -94,7 +97,8 @@ export default function HomePage() {
                 </div>
                 <h3 className="font-semibold text-xl mb-2">Live Training</h3>
                 <p className="text-muted-foreground">
-                  Interactive workshops and seminars led by industry professionals
+                  Interactive workshops and seminars led by industry
+                  professionals
                 </p>
               </CardContent>
             </Card>
@@ -135,8 +139,8 @@ export default function HomePage() {
                 Ready to Get Started?
               </h2>
               <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-                Whether you need a digital solution or want to learn cutting-edge tech,
-                we're here to help you succeed.
+                Whether you need a digital solution or want to learn
+                cutting-edge tech, we're here to help you succeed.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">

@@ -47,6 +47,13 @@ export default function ContactPage() {
               Have a project in mind or want to join our academy? We'd love to
               hear from you.
             </p>
+
+            <div className="mt-6 overflow-hidden whitespace-nowrap">
+              <p className="animate-pulse text-xl text-red-500 font-bold">
+                Please contact our facebook page for more information. Check the
+                footer for the link.
+              </p>
+            </div>
           </FadeIn>
         </div>
 
